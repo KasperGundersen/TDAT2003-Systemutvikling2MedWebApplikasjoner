@@ -1,0 +1,132 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0%;
+  display: block;
+}
+
+.header div {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.hvitvin-image{
+  width: 100%;
+  height: auto;
+  margin-bottom: 0%;
+  display: block;
+}
+
+.navbar{
+  margin: 0%;
+  padding: 0%;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+.navbar div{
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
+a{
+    display: block;
+    padding: 8vw;
+}
+.navbar div a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.navbar div a:hover{
+   background-color: #111;
+ }
+
+ .active {
+   background-color: #4CAF50;
+ }
+
+ .artikkel1 {
+  grid-area: artikkel;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: 
+  'overskrift overskrift overskrift'
+  'artikkel bilde1 bildetekst1'
+  'artikkel bildetekst2 bildeto';
+  grid-template-columns: 33% 33% 33%;
+  background-color: aquamarine;
+}
+
+.overskrift {
+  grid-area: overskrift;
+  text-align: center;
+}
+
+.artikkel1 {
+  grid-area: artikkel;
+  padding: 20px;
+}
+
+.bilde {
+  grid-area: bilde1;
+  margin: 3em;
+}
+
+.bildetekst {
+  grid-area: bildetekst1;
+  margin: auto 0;
+}
+
+.bilde2 {
+  grid-area: bildeto;
+  
+}
+
+.imageNiko {
+  width: 100%;
+  height: auto;
+}
+
+.rodvin {
+  background-image: url("rødvinflaske.png");
+  width: 100%;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: cornflowerblue;
+  color: white;
+  text-align: center;
+  margin: 0%;
+  display: block;
+}
+
+@media only screen and (max-width: 600px){
+  .grid{
+    grid-template-areas:
+    'overskrift'
+    'bilde1'
+    'bildetekst1'
+    'artikkel'
+    'bildeto'
+    'bildetekst2';
+    grid-template-columns: 100%;
+  }
+}

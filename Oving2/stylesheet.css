@@ -1,0 +1,13 @@
+
+.textinput{
+    text-align: center;
+    -webkit-transition: width 1.4s ease-in-out;
+    transition: width 1.4s ease-in-out;
+    margin: auto 0;
+    justify-content: center;
+    align-content: center;
+    }
+
+.textinput:focus{
+    width: 30%;
+}
