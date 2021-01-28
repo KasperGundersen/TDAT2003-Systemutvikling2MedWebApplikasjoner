@@ -1,0 +1,20 @@
+@media only screen and (max-width: 852px) {
+    .card-columns {
+      column-count: 2;
+    }
+  }
+
+  @media only screen and (max-width: 577px) {
+    .card-columns {
+      column-count: 1;
+      width: auto;
+    }
+    .card{
+        width: 80%;
+        margin-left: 10%;
+    }
+  }
+
+.error-container{
+  height: 64%;
+}

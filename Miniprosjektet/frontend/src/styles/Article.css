@@ -1,0 +1,23 @@
+#image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.text-box{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.nav-link {
+    color: #000000;
+    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold";
+    font-size: 35px;
+  }
+
+.settings-custom {
+    right: 0;
+    position: fixed;
+}
