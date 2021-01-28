@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+
+.custom-nav-text {
+  text-decoration: none;
+  font-family: "Noto Sans TC", sans-serif;
+}

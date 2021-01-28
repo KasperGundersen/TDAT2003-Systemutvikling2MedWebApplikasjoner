@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+
+.sitewidth {
+    overflow: hidden;
+    background: #a0a0a0;
+    margin-bottom: 25px;
+}
+marquee {
+    float: left;
+    height: 40px;
+    position: absolute;
+}
+.br-title {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #FFF;
+    float: left;
+    background-color:red;
+    left: 0px;
+    top: 0px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 20px;
+}
+
+.sitewidth ul li {
+    float: left;
+    list-style: none;
+    font-weight: 500;
+    font-size: 13px;
+    height: 10px;
+}
+
+.great-news li a {
+    color: white;
+}
